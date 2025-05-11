@@ -1,0 +1,175 @@
+2025-05-09 21:33:34,411 - logger - INFO - Loaded 10 models and 6 topics
+2025-05-09 21:33:34,412 - logger - INFO - Starting private self-debate tournament
+2025-05-09 21:33:34,412 - logger - INFO - 
+=== Running debates for openai/o3-mini ===
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 1 for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 2 for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 3 for openai/o3-mini
+2025-05-09 21:33:34,412 - logger - INFO - 
+=== Running debates for google/gemini-2.0-flash-001 ===
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 1 for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 2 for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 3 for google/gemini-2.0-flash-001
+2025-05-09 21:33:34,412 - logger - INFO - 
+=== Running debates for anthropic/claude-3.7-sonnet ===
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 1 for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 2 for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,412 - logger - ERROR - Failed to complete debate 3 for anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,412 - logger - INFO - 
+=== Running debates for deepseek/deepseek-chat ===
+2025-05-09 21:33:34,412 - logger - INFO - Starting self-debate for deepseek/deepseek-chat
+2025-05-09 21:33:34,412 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,412 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 1 for deepseek/deepseek-chat
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for deepseek/deepseek-chat
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 2 for deepseek/deepseek-chat
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for deepseek/deepseek-chat
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 3 for deepseek/deepseek-chat
+2025-05-09 21:33:34,413 - logger - INFO - 
+=== Running debates for qwen/qwq-32b:free ===
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 1 for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 2 for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 3 for qwen/qwq-32b:free
+2025-05-09 21:33:34,413 - logger - INFO - 
+=== Running debates for openai/gpt-4o-mini ===
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 1 for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 2 for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 3 for openai/gpt-4o-mini
+2025-05-09 21:33:34,413 - logger - INFO - 
+=== Running debates for google/gemma-3-27b-it ===
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 1 for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 2 for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - Starting self-debate for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,413 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,413 - logger - ERROR - Failed to complete debate 3 for google/gemma-3-27b-it
+2025-05-09 21:33:34,413 - logger - INFO - 
+=== Running debates for anthropic/claude-3.5-haiku ===
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 1 for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 2 for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 3 for anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,414 - logger - INFO - 
+=== Running debates for deepseek/deepseek-r1-distill-qwen-14b:free ===
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 1 for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 2 for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 3 for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,414 - logger - INFO - 
+=== Running debates for qwen/qwen-max ===
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require national television news broadcasters with over 5% annual viewership to provide equal prime-time coverage to parties polling above 10% and guaranteed response segments within 48 hours of criticism, rather than relying on media watchdog guidelines and voluntary fairness codes
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 1 for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 2 for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Starting self-debate for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Topic: This House believes that governments should transition their primary role in space from direct operation to regulation and oversight of private sector space activities
+2025-05-09 21:33:34,414 - logger - ERROR - Debate failed: PRIVATE_SAME_DEBATOR_INFORMED
+2025-05-09 21:33:34,414 - logger - ERROR - Failed to complete debate 3 for qwen/qwen-max
+2025-05-09 21:33:34,414 - logger - INFO - Saved tournament results to private_self_debates_informed/tournament_summary_20250509_2133.json
+2025-05-09 21:33:34,414 - logger - INFO - 
+=== Tournament Summary ===
+2025-05-09 21:33:34,414 - logger - INFO - 
+Model: openai/o3-mini
+2025-05-09 21:33:34,414 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,414 - logger - INFO - 
+Model: google/gemini-2.0-flash-001
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: anthropic/claude-3.7-sonnet
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: deepseek/deepseek-chat
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: qwen/qwq-32b:free
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: openai/gpt-4o-mini
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: google/gemma-3-27b-it
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: anthropic/claude-3.5-haiku
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0
+2025-05-09 21:33:34,415 - logger - INFO - 
+Model: qwen/qwen-max
+2025-05-09 21:33:34,415 - logger - INFO - Total debates: 0

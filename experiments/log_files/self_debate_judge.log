@@ -1,0 +1,30 @@
+2025-05-11 16:40:42,483 - self_debate_judge - INFO - Using 3 judges for evaluation: qwen/qwq-32b, google/gemini-pro-1.5, deepseek/deepseek-chat
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for qwen/qwq-32b:free
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for qwen/qwen-max
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for deepseek/deepseek-chat
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for google/gemini-2.0-flash-001
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for anthropic/claude-3.5-haiku
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for openai/o3-mini
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for anthropic/claude-3.7-sonnet
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for google/gemma-3-27b-it
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for openai/gpt-4o-mini
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Found 6 self-debates for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Processing model: qwen/qwq-32b:free
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Randomly selected 3 debates for analysis
+2025-05-11 16:40:42,510 - self_debate_judge - INFO - Judging debate: private_self_debates/qwen_qwq-32b:free_vs_self_20250509_222115.json
+2025-05-11 17:03:01,588 - self_debate_judge - INFO - qwen/qwq-32b:free self-debate on 'This House would require US state governors to face recall elections through voter petitions (requiring 20% of registered voters within 90 days) rather than allowing removal during their term only through state legislative impeachment, with both mechanisms prohibited during the first and last 6 months of their term': proposition won with margin 0.29
+2025-05-11 17:03:01,588 - self_debate_judge - INFO - Judging debate: private_self_debates/qwen_qwq-32b:free_vs_self_20250503_150318.json
+2025-05-11 17:18:09,065 - self_debate_judge - INFO - Using 3 judges for evaluation: qwen/qwq-32b, google/gemini-pro-1.5, deepseek/deepseek-chat
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for qwen/qwq-32b:free
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for qwen/qwen-max
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for deepseek/deepseek-chat
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for google/gemini-2.0-flash-001
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for anthropic/claude-3.5-haiku
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for openai/o3-mini
+2025-05-11 17:18:09,089 - self_debate_judge - INFO - Found 6 self-debates for anthropic/claude-3.7-sonnet
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Found 6 self-debates for google/gemma-3-27b-it
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Found 6 self-debates for openai/gpt-4o-mini
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Found 6 self-debates for deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Processing model: qwen/qwq-32b:free
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Randomly selected 3 debates for analysis
+2025-05-11 17:18:09,090 - self_debate_judge - INFO - Judging debate: private_self_debates/qwen_qwq-32b:free_vs_self_20250503_150934.json
