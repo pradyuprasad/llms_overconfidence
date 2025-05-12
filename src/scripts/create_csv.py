@@ -1,10 +1,9 @@
 import os
 import pandas as pd
 from pathlib import Path
-import re
-from typing import List, Dict, Any
+from typing import List, Dict
 
-from src.core.models import DebateTotal, Side, SpeechType
+from src.core.models import DebateTotal, Side
 
 
 def load_debate_totals(directory_path: str) -> List[DebateTotal]:
@@ -27,10 +26,10 @@ def get_experiment_names() -> Dict[str, str]:
     Returns a mapping from directory names to formatted experiment names.
     """
     return {
-        "private_bet_experiments_diff_models": "Cross-model",
-        "private_self_bet": "Debate against same model",
-        "private_self_bet_anchored": "Debate against same model informed with 50% probability",
-        "public_bets": "Public Bets"
+        "private_bet_experiments_diff_models": "cross_model",
+        "private_self_bet": "self_debate",
+        "private_self_bet_anchored": "informed_self",
+        "public_bets": "public_bets"
     }
 
 
