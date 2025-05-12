@@ -56,6 +56,9 @@ def create_bet_dataset():
     experiment_names = get_experiment_names()
     all_bets = []
 
+    # Keep track of debate IDs and counter
+    debate_id_counter = {}
+
     for exp_dir in experiment_dirs:
         path = os.path.join(base_dir, exp_dir)
         formatted_exp_name = experiment_names[exp_dir]
@@ -69,8 +72,20 @@ def create_bet_dataset():
             opp_model = extract_model_name(debate.opposition_model)
             topic = debate.motion.topic_description
 
-            # Create debate ID
-            debate_id = f"{formatted_exp_name}_{prop_model}_vs_{opp_model}"
+            # Create base debate ID
+            base_debate_id = f"{formatted_exp_name}_{prop_model}_vs_{opp_model}"
+
+            # Add topic hash to make it more unique
+            topic_hash = hash(topic) % 10000  # Use a small hash to keep ID readable
+            base_debate_id = f"{base_debate_id}_{topic_hash}"
+
+            # Check if we've seen this base ID before and increment counter if needed
+            if base_debate_id in debate_id_counter:
+                debate_id_counter[base_debate_id] += 1
+                debate_id = f"{base_debate_id}_{debate_id_counter[base_debate_id]}"
+            else:
+                debate_id_counter[base_debate_id] = 0
+                debate_id = base_debate_id
 
             # Process all bets from this debate
             if debate.debator_bets:
@@ -116,6 +131,8 @@ def create_bet_dataset():
 
 if __name__ == "__main__":
     bets_df = create_bet_dataset()
+    num_unique_debates_original = bets_df['debate_id'].nunique()
+    print(f"Number of unique debate IDs in the original unfiltered dataset: {num_unique_debates_original}")
 
     # Display sample of the data
     if bets_df is not None:

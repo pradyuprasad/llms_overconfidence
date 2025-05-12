@@ -4,8 +4,8 @@ from typing import Dict, Tuple
 
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from core.api_client import OpenRouterClient
-from core.models import DebatePrompts, DebateTotal, JudgeResult
+from src.core.api_client import OpenRouterClient
+from src.core.models import DebatePrompts, DebateTotal, JudgeResult
 
 
 class JudgementProcessor:

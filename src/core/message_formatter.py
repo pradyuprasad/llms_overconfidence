@@ -1,6 +1,6 @@
 from typing import Dict, List, Optional
 
-from core.models import (BetPatternConfig, DebatePrompts, DebateTotal,
+from src.core.models import (BetPatternConfig, DebatePrompts, DebateTotal,
                          DebateType, DebatorBet, Round, Side, SpeechType)
 
 

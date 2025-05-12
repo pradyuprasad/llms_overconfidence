@@ -171,7 +171,7 @@ def analyze_confidences_with_stats():
 
 
 if __name__ == "__main__":
-    stats_df, combined_pivot = analyze_confidences_with_stats()
+    stats_df, combined_pivot, _ = analyze_confidences_with_stats()
 
     # Save results to CSV if desired
     stats_df.to_csv("initial_confidence_detailed_stats.csv", index=False)

@@ -5,9 +5,9 @@ from pathlib import Path
 import requests
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from core.api_client import OpenRouterClient
-from core.message_formatter import MessageFormatter
-from core.models import (BetPatternConfig, DebateTopic, DebateTotal,
+from src.core.api_client import OpenRouterClient
+from src.core.message_formatter import MessageFormatter
+from src.core.models import (BetPatternConfig, DebateTopic, DebateTotal,
                          DebateType, DebatorBet, Round, Side)
 from utils.utils import make_rounds
 

@@ -3,7 +3,7 @@ from typing import Dict, List
 
 import requests
 
-from core.models import APIResponse
+from src.core.models import APIResponse
 
 
 class OpenRouterClient:
