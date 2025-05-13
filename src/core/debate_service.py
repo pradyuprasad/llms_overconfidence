@@ -9,7 +9,7 @@ from src.core.api_client import OpenRouterClient
 from src.core.message_formatter import MessageFormatter
 from src.core.models import (BetPatternConfig, DebateTopic, DebateTotal,
                          DebateType, DebatorBet, Round, Side)
-from utils.utils import make_rounds
+from src.core.utils import make_rounds
 
 
 class DebateService:

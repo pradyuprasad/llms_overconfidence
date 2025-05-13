@@ -1,0 +1,12 @@
+{
+    "openai/o3-mini": [1.1, 4.4],
+    "google/gemini-2.0-flash-001": [0.1, 0.4],
+    "anthropic/claude-3.7-sonnet": [3, 15],
+    "deepseek/deepseek-chat": [0.7, 2.5],
+    "qwen/qwq-32b:free": [0, 0],
+    "openai/gpt-4o-mini": [0.15, 0.6],
+    "google/gemma-3-27b-it": [0.1, 0.2],
+    "anthropic/claude-3.5-haiku": [0.8, 4],
+    "deepseek/deepseek-r1-distill-qwen-14b:free": [0, 0],
+    "qwen/qwen-max": [1.6, 6.4]
+}

@@ -15,23 +15,23 @@ from src.core.models import BetPatternConfig, DebatePrompts
 
 @dataclass
 class Config:
-    ai_models_dir: Path = Path("ai_models")
+    ai_models_dir: Path = Path("config_data")
     debate_models_list_path: Path = field(init=False)
     judge_models_list_path: Path = field(init=False)
-    topic_dir: Path = Path("topics")
+    topic_dir: Path = Path("config_data")
     topic_list_path: Path = field(init=False)
-    prompts_dir: Path = Path("prompts")
+    prompts_dir: Path = Path("config_data")
     prompts_path_yaml: Path = field(init=False)
 
-    outputs_dir: Path = Path("outputs")
+    outputs_dir: Path = Path("config_data")
     debates_dir: Path = field(init=False)
     judgments_dir: Path = field(init=False)
 
-    samples_dir: Path = Path("samples")
+    samples_dir: Path = Path("config_data")
     sample_debates_dir: Path = field(init=False)
     sample_judgments_dir: Path = field(init=False)
 
-    tournament_dir: Path = Path("tournament")
+    tournament_dir: Path = Path("config_data")
     tournament_results_path: Path = field(init=False)
     num_rounds: int = 3
     k_factor: int = 64

@@ -1,0 +1,6 @@
+{
+    "openai/o3-mini": [1.1, 4.4],
+    "google/gemini-2.0-flash-001": [0.1, 0.4],
+    "anthropic/claude-3.7-sonnet": [3, 15],
+    "deepseek/deepseek-chat": [0.7, 2.5]
+}

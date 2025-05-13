@@ -32,7 +32,7 @@ class OpenRouterClient:
             self.logger.error(f"REQUEST TIMED OUT: {str(e)}", exc_info=True)
         except ValueError as e:
             self.logger.error(f"Error decoding JSON response: {e}")
-            self.logger.error(f"Response content: {response.text}")
+            self.logger.error(f"Response content: {response.text}") # type: ignore
             raise
 
         if "error" in output:
