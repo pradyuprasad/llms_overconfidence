@@ -25,3 +25,8 @@ def make_rounds() -> List[Round]:
             raise ValueError("Found duplicate speech type for a side in rounds")
 
     return [Round(side, speech_type) for side, speech_type in rounds]
+
+
+def sanitize_model_name(model_name: str) -> str:
+    """Convert model name to a valid filename by replacing / with _"""
+    return model_name.replace("/", "_")

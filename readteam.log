@@ -1,0 +1,70 @@
+2025-05-13 19:37:22,132 - logger - INFO - Starting debates for model: 1/10
+2025-05-13 19:37:22,132 - logger - INFO - Starting debate 1/6 for model openai/o3-mini
+2025-05-13 19:39:52,883 - logger - INFO - Starting debate 2/6 for model openai/o3-mini
+2025-05-13 19:50:25,215 - logger - INFO - Starting debate 3/6 for model openai/o3-mini
+2025-05-13 19:52:12,149 - logger - INFO - Starting debate 4/6 for model openai/o3-mini
+2025-05-13 19:54:20,486 - logger - INFO - Starting debate 5/6 for model openai/o3-mini
+2025-05-13 20:08:28,026 - logger - INFO - Starting debate 6/6 for model openai/o3-mini
+2025-05-13 20:10:35,808 - logger - INFO - Starting debates for model: 2/10
+2025-05-13 20:10:35,809 - logger - INFO - Starting debate 1/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:11:35,246 - logger - INFO - Starting debate 2/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:12:43,966 - logger - INFO - Starting debate 3/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:13:53,802 - logger - INFO - Starting debate 4/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:14:56,708 - logger - INFO - Starting debate 5/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:16:09,245 - logger - INFO - Starting debate 6/6 for model google/gemini-2.0-flash-001
+2025-05-13 20:17:06,574 - logger - INFO - Starting debates for model: 3/10
+2025-05-13 20:17:06,574 - logger - INFO - Starting debate 1/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:21:02,954 - logger - INFO - Starting debate 2/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:26:23,159 - logger - INFO - Starting debate 3/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:30:59,895 - logger - INFO - Starting debate 4/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:34:52,516 - logger - INFO - Starting debate 5/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:39:22,025 - logger - INFO - Starting debate 6/6 for model anthropic/claude-3.7-sonnet
+2025-05-13 20:43:34,150 - logger - INFO - Starting debates for model: 4/10
+2025-05-13 20:43:34,150 - logger - INFO - Starting debate 1/6 for model deepseek/deepseek-chat
+2025-05-13 21:01:15,868 - logger - INFO - Starting debate 2/6 for model deepseek/deepseek-chat
+2025-05-13 21:05:37,980 - logger - INFO - Starting debate 3/6 for model deepseek/deepseek-chat
+2025-05-13 21:12:19,475 - logger - INFO - Starting debate 4/6 for model deepseek/deepseek-chat
+2025-05-13 21:18:12,411 - logger - INFO - Starting debate 5/6 for model deepseek/deepseek-chat
+2025-05-13 21:26:12,797 - logger - INFO - Starting debate 6/6 for model deepseek/deepseek-chat
+2025-05-13 21:31:58,002 - logger - INFO - Starting debates for model: 5/10
+2025-05-13 21:31:58,002 - logger - INFO - Starting debate 1/6 for model qwen/qwq-32b:free
+2025-05-13 21:33:44,306 - logger - INFO - Starting debate 2/6 for model qwen/qwq-32b:free
+2025-05-13 21:35:57,856 - logger - INFO - Starting debate 3/6 for model qwen/qwq-32b:free
+2025-05-13 21:38:29,799 - logger - INFO - Starting debate 4/6 for model qwen/qwq-32b:free
+2025-05-13 21:43:18,362 - logger - INFO - Starting debate 5/6 for model qwen/qwq-32b:free
+2025-05-13 21:45:06,441 - logger - INFO - Starting debate 6/6 for model qwen/qwq-32b:free
+2025-05-13 21:51:14,276 - logger - INFO - Starting debates for model: 6/10
+2025-05-13 21:51:14,276 - logger - INFO - Starting debate 1/6 for model openai/gpt-4o-mini
+2025-05-13 21:54:25,608 - logger - INFO - Starting debate 2/6 for model openai/gpt-4o-mini
+2025-05-13 21:56:15,306 - logger - INFO - Starting debate 3/6 for model openai/gpt-4o-mini
+2025-05-13 21:58:11,867 - logger - INFO - Starting debate 4/6 for model openai/gpt-4o-mini
+2025-05-13 22:00:12,093 - logger - INFO - Starting debate 5/6 for model openai/gpt-4o-mini
+2025-05-13 22:02:26,559 - logger - INFO - Starting debate 6/6 for model openai/gpt-4o-mini
+2025-05-13 22:05:05,691 - logger - INFO - Starting debates for model: 7/10
+2025-05-13 22:05:05,691 - logger - INFO - Starting debate 1/6 for model google/gemma-3-27b-it
+2025-05-13 22:11:36,145 - logger - INFO - Starting debate 2/6 for model google/gemma-3-27b-it
+2025-05-13 22:16:44,577 - logger - INFO - Starting debate 3/6 for model google/gemma-3-27b-it
+2025-05-13 22:22:28,865 - logger - INFO - Starting debate 4/6 for model google/gemma-3-27b-it
+2025-05-13 22:26:34,503 - logger - INFO - Starting debate 5/6 for model google/gemma-3-27b-it
+2025-05-13 22:32:31,579 - logger - INFO - Starting debate 6/6 for model google/gemma-3-27b-it
+2025-05-13 22:43:31,328 - logger - INFO - Starting debates for model: 8/10
+2025-05-13 22:43:31,329 - logger - INFO - Starting debate 1/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:45:34,654 - logger - INFO - Starting debate 2/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:47:43,175 - logger - INFO - Starting debate 3/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:49:49,238 - logger - INFO - Starting debate 4/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:51:46,298 - logger - INFO - Starting debate 5/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:53:51,422 - logger - INFO - Starting debate 6/6 for model anthropic/claude-3.5-haiku
+2025-05-13 22:55:45,005 - logger - INFO - Starting debates for model: 9/10
+2025-05-13 22:55:45,006 - logger - INFO - Starting debate 1/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:21:23,510 - logger - INFO - Starting debate 2/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:24:12,054 - logger - INFO - Starting debate 3/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:27:15,496 - logger - INFO - Starting debate 4/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:29:35,002 - logger - INFO - Starting debate 5/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:53:50,845 - logger - INFO - Starting debate 6/6 for model deepseek/deepseek-r1-distill-qwen-14b:free
+2025-05-13 23:56:22,020 - logger - INFO - Starting debates for model: 10/10
+2025-05-13 23:56:22,021 - logger - INFO - Starting debate 1/6 for model qwen/qwen-max
+2025-05-13 23:59:38,329 - logger - INFO - Starting debate 2/6 for model qwen/qwen-max
+2025-05-14 00:03:01,993 - logger - INFO - Starting debate 3/6 for model qwen/qwen-max
+2025-05-14 00:06:31,850 - logger - INFO - Starting debate 4/6 for model qwen/qwen-max
+2025-05-14 00:11:17,661 - logger - INFO - Starting debate 5/6 for model qwen/qwen-max
+2025-05-14 00:14:37,615 - logger - INFO - Starting debate 6/6 for model qwen/qwen-max

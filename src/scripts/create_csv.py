@@ -29,7 +29,8 @@ def get_experiment_names() -> Dict[str, str]:
         "private_bet_experiments_diff_models": "cross_model",
         "private_self_bet": "self_debate",
         "private_self_bet_anchored": "informed_self",
-        "public_bets": "public_bets"
+        "public_bets": "public_bets",
+        "SELF_REDTEAM_DEBATE": "self_redteam_debate"
     }
 
 
@@ -50,7 +51,8 @@ def create_bet_dataset():
         "private_bet_experiments_diff_models",
         "private_self_bet",
         "private_self_bet_anchored",
-        "public_bets"
+        "public_bets",
+        "SELF_REDTEAM_DEBATE"
     }
 
     experiment_names = get_experiment_names()

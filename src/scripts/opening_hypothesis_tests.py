@@ -14,11 +14,14 @@ def run_statistical_tests():
 
     # Create a mapping of experiment names to shorter labels
     experiment_mapping = {
-        "Cross-model": "cross_model",
-        "Debate against same model": "standard_self",
-        "Debate against same model informed with 50% probability": "informed_self",
-        "Public Bets": "public_bets"
-    }
+    "Cross-model": "cross_model",
+    "Debate against same model": "standard_self",
+    "Debate against same model informed with 50% probability": "informed_self",
+    "Public Bets": "public_bets",
+    "Redteam": "redteam"  # Add this line
+}
+
+
 
     # Extract raw data for each experiment from stats_df
     raw_data = {}
@@ -54,7 +57,7 @@ def run_statistical_tests():
 
     overconfidence_results = []
     for exp_name, exp_short in experiment_mapping.items():
-        if exp_short in ["cross_model", "standard_self", "public_bets"]:
+        if exp_short in ["cross_model", "standard_self", "public_bets", "redteam"]:
             data = raw_data[exp_short]
             mean_val = np.mean(data)
 

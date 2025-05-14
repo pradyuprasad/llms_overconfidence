@@ -63,7 +63,7 @@ results['cross_model'] = {
 all_pairs = cross_model_pairs.copy()
 
 # Analyze self-debate formats
-for exp_type in ['self_debate', 'informed_self', 'public_bets']:
+for exp_type in ['self_debate', 'informed_self', 'public_bets', "self_redteam_debate"]:
     exp_bets = closing_bets[closing_bets['experiment_type'] == exp_type]
     model_pairs = []
 
@@ -148,7 +148,7 @@ print(f"{headers[0]:<15} {headers[1]:<7} {headers[2]:<10} {headers[3]:<12} {head
 print("-" * 100)
 
 # First print individual experiment types (except overall)
-for exp_type in ['cross_model', 'self_debate', 'informed_self', 'public_bets']:
+for exp_type in ['cross_model', 'self_debate', 'informed_self', 'public_bets', "self_redteam_debate"]:
     data = results[exp_type]
     print(f"{exp_type:<15} {data['total']:<7} "
           f"{data['pct_both_low']:.1f}% {data['pct_both_medium']:.1f}% {data['pct_both_high']:.1f}% "

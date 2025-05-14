@@ -30,7 +30,8 @@ def get_experiment_names() -> Dict[str, str]:
         "private_bet_experiments_diff_models": "Cross-model",
         "private_self_bet": "Debate against same model",
         "private_self_bet_anchored": "Debate against same model informed with 50% probability",
-        "public_bets": "Public Bets"
+        "public_bets": "Public Bets",
+        "SELF_REDTEAM_DEBATE": "Redteam"
     }
 
 
@@ -70,7 +71,8 @@ def analyze_confidences_with_stats():
         "private_bet_experiments_diff_models",
         "private_self_bet",
         "private_self_bet_anchored",
-        "public_bets"
+        "public_bets",
+        "SELF_REDTEAM_DEBATE"
     }
 
     experiment_names = get_experiment_names()

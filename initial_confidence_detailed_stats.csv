@@ -3,39 +3,49 @@ anthropic/claude-3.5-haiku,Cross-model,71.66666666666667,4.92365963917331,12
 anthropic/claude-3.5-haiku,Debate against same model,71.25,6.4402851433203425,12
 anthropic/claude-3.5-haiku,Debate against same model informed with 50% probability,54.583333333333336,9.64325796826074,12
 anthropic/claude-3.5-haiku,Public Bets,73.33333333333333,7.177405625652734,12
+anthropic/claude-3.5-haiku,Redteam,69.58333333333333,8.908201872772114,12
 anthropic/claude-3.7-sonnet,Cross-model,67.3076923076923,3.881250129030924,13
 anthropic/claude-3.7-sonnet,Debate against same model,56.25,8.56127645538062,12
 anthropic/claude-3.7-sonnet,Debate against same model informed with 50% probability,50.083333333333336,2.151461800448216,12
 anthropic/claude-3.7-sonnet,Public Bets,56.25,6.077155435054972,12
+anthropic/claude-3.7-sonnet,Redteam,58.333333333333336,2.461829819586655,12
 deepseek/deepseek-chat,Cross-model,74.58333333333333,7.216878364870322,12
 deepseek/deepseek-chat,Debate against same model,54.583333333333336,4.9810245994781095,12
 deepseek/deepseek-chat,Debate against same model informed with 50% probability,49.166666666666664,6.336522323129238,12
 deepseek/deepseek-chat,Public Bets,56.25,7.423855895936852,12
+deepseek/deepseek-chat,Redteam,62.083333333333336,4.5016831868926,12
 deepseek/deepseek-r1-distill-qwen-14b:free,Cross-model,79.0909090909091,10.44465935734187,11
 deepseek/deepseek-r1-distill-qwen-14b:free,Debate against same model,76.66666666666667,13.200091827045153,12
 deepseek/deepseek-r1-distill-qwen-14b:free,Debate against same model informed with 50% probability,55.75,4.712169930567599,12
 deepseek/deepseek-r1-distill-qwen-14b:free,Public Bets,69.58333333333333,16.300910924537224,12
+deepseek/deepseek-r1-distill-qwen-14b:free,Redteam,81.25,9.323723407620916,12
 google/gemini-2.0-flash-001,Cross-model,65.41666666666667,8.382431122004613,12
 google/gemini-2.0-flash-001,Debate against same model,43.25,27.032387981826542,12
 google/gemini-2.0-flash-001,Debate against same model informed with 50% probability,36.25,26.035378028576982,12
 google/gemini-2.0-flash-001,Public Bets,34.583333333333336,25.801544468688245,12
+google/gemini-2.0-flash-001,Redteam,59.916666666666664,5.401318581998513,12
 google/gemma-3-27b-it,Cross-model,67.5,6.215815605080611,12
 google/gemma-3-27b-it,Debate against same model,68.75,7.423855895936852,12
 google/gemma-3-27b-it,Debate against same model informed with 50% probability,53.333333333333336,11.146408580454255,12
 google/gemma-3-27b-it,Public Bets,63.75,9.799118698777317,12
+google/gemma-3-27b-it,Redteam,69.58333333333333,6.556860852757533,12
 openai/gpt-4o-mini,Cross-model,75.0,3.692744729379982,12
 openai/gpt-4o-mini,Debate against same model,67.08333333333333,7.216878364870322,12
 openai/gpt-4o-mini,Debate against same model informed with 50% probability,57.083333333333336,12.695441797127126,12
 openai/gpt-4o-mini,Public Bets,72.91666666666667,4.9810245994781095,12
+openai/gpt-4o-mini,Redteam,71.25,2.261335084333227,12
 openai/o3-mini,Cross-model,77.5,5.838742081211422,12
 openai/o3-mini,Debate against same model,70.0,10.660035817780521,12
 openai/o3-mini,Debate against same model informed with 50% probability,50.0,0.0,12
 openai/o3-mini,Public Bets,72.08333333333333,9.404624909956254,12
+openai/o3-mini,Redteam,70.0,9.534625892455923,12
 qwen/qwen-max,Cross-model,73.33333333333333,8.616404368553292,12
 qwen/qwen-max,Debate against same model,62.083333333333336,12.87321626361093,12
 qwen/qwen-max,Debate against same model informed with 50% probability,43.333333333333336,22.29281716090851,12
 qwen/qwen-max,Public Bets,64.58333333333333,10.966546927595372,12
+qwen/qwen-max,Redteam,63.333333333333336,6.154574548966636,12
 qwen/qwq-32b:free,Cross-model,78.75,4.330127018922194,12
 qwen/qwq-32b:free,Debate against same model,70.83333333333333,10.624442944398915,12
 qwen/qwq-32b:free,Debate against same model informed with 50% probability,50.416666666666664,1.4433756729740645,12
 qwen/qwq-32b:free,Public Bets,71.66666666666667,8.616404368553292,12
+qwen/qwq-32b:free,Redteam,65.0,4.767312946227961,12

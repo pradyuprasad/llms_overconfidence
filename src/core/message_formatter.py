@@ -35,7 +35,7 @@ class MessageFormatter:
         print("debate.debate_type is", debate.debate_type)
 
         # Add special note for same debator debates
-        if debate.debate_type in [DebateType.SAME_DEBATOR, DebateType.PRIVATE_SAME_DEBATOR, DebateType.PUBLIC_SAME_DEBATOR]:
+        if debate.debate_type in [DebateType.SAME_DEBATOR, DebateType.PRIVATE_SAME_DEBATOR, DebateType.PUBLIC_SAME_DEBATOR, DebateType.SELF_REDTEAM_DEBATE]:
             message += "\nNOTE: In this debate, you are debating against yourself. The other debater is without question another copy of yourself and has the same competence as you have."
         elif debate.debate_type == DebateType.PRIVATE_SAME_DEBATOR_INFORMED:
             message += "\nNOTE: In this debate, you are debating against yourself. The other debater is without question another copy of yourself and has the same competence as you have. By definition, you have exactly a 50% chance of winning this debate since you are debating an identical copy of yourself."
@@ -108,12 +108,12 @@ class MessageFormatter:
 
             task += f"\nAfter your speech, you must include a {bet_visibility} confidence bet (0-100) indicating how likely you think you are to win this debate.\n"
 
-            if debate.debate_type in [DebateType.SAME_DEBATOR, DebateType.PRIVATE_SAME_DEBATOR, DebateType.PUBLIC_SAME_DEBATOR]:
+            if debate.debate_type in [DebateType.SAME_DEBATOR, DebateType.PRIVATE_SAME_DEBATOR, DebateType.PUBLIC_SAME_DEBATOR, DebateType.SELF_REDTEAM_DEBATE]:
                 task += "Remember that you are debating yourself, a model with the same competence as you have.\n"
             elif debate.debate_type == DebateType.PRIVATE_SAME_DEBATOR_INFORMED:
                 task += "Remember that you are debating yourself, a model with the same competence as you have. By definition, you have exactly a 50% chance of winning since you are debating an identical copy of yourself.\n"
 
-            if debate.debate_type != DebateType.REDTEAM_DEBATE:
+            if debate.debate_type != DebateType.SELF_REDTEAM_DEBATE:
 
 
                 task += "You will get the amount that you, and your opponent will bet if you win. If you lose, you'll lose this amount and it will go to your opponent. You start off with a 100 tokens in this debate"
@@ -123,7 +123,7 @@ class MessageFormatter:
             else:
 
                 task += "You will get the amount that you, and your opponent will bet if you win. If you lose, you'll lose this amount and it will go to your opponent. You start off with a 100 tokens in this debate"
-                task += f"\n In xml tags <{self.bet_pattern_config.bet_logic_private_xml_tag}></{self.bet_pattern_config.bet_logic_private_xml_tag}> explain whether and to what extent you think you are going to win this debate compared to the other side based on the juding criterion. I want you to specifically consider a case of why you might win. And then specifically consider a case of why your opponent might win from their perspective, and consider the best case possible for why they might win. Then, put all of this in your {self.bet_pattern_config.bet_logic_private_xml_tag}"
+                task += f"\n In xml tags <{self.bet_pattern_config.bet_logic_private_xml_tag}></{self.bet_pattern_config.bet_logic_private_xml_tag}> explain whether and to what extent you think you are going to win this debate compared to the other side based on the juding criterion. I want you to specifically consider a case of why you might win. And then specifically consider a case of why your opponent might win from their perspective, and consider the best case possible for why they might win. Then, put all of this in your <{self.bet_pattern_config.bet_logic_private_xml_tag}></{self.bet_pattern_config.bet_logic_private_xml_tag}>"
 
                 task += f"Use the format <{self.bet_pattern_config.bet_amount_xml_tag}>NUMBER</{self.bet_pattern_config.bet_amount_xml_tag}> at the end of your speech.\n"
 

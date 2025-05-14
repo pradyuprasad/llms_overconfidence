@@ -1,41 +1,51 @@
 Experiment,Model,N,Mean,p-value (t-test),Significant (t-test),p-value (Wilcoxon),Significant (Wilcoxon)
+Cross-model,deepseek/deepseek-r1-distill-qwen-14b:free,11,79.0909090909091,1.635880218171538e-06,True,0.00048828125,True
 Cross-model,qwen/qwq-32b:free,12,78.75,5.937828392655834e-11,True,0.000244140625,True
+Cross-model,deepseek/deepseek-chat,12,74.58333333333333,6.911948822508222e-08,True,0.000244140625,True
+Cross-model,anthropic/claude-3.5-haiku,12,71.66666666666667,4.8080904356607875e-09,True,0.000244140625,True
 Cross-model,google/gemini-2.0-flash-001,12,65.41666666666667,2.6441179950203247e-05,True,0.000732421875,True
+Cross-model,google/gemma-3-27b-it,12,67.5,4.74410742820337e-07,True,0.000244140625,True
+Cross-model,openai/gpt-4o-mini,12,75.0,4.812325297673727e-11,True,0.000244140625,True
 Cross-model,openai/o3-mini,12,77.5,2.344634304312368e-09,True,0.000244140625,True
 Cross-model,qwen/qwen-max,12,73.33333333333333,6.974368595682575e-07,True,0.000244140625,True
-Cross-model,deepseek/deepseek-r1-distill-qwen-14b:free,11,79.0909090909091,1.635880218171538e-06,True,0.00048828125,True
-Cross-model,openai/gpt-4o-mini,12,75.0,4.812325297673727e-11,True,0.000244140625,True
-Cross-model,google/gemma-3-27b-it,12,67.5,4.74410742820337e-07,True,0.000244140625,True
-Cross-model,anthropic/claude-3.5-haiku,12,71.66666666666667,4.8080904356607875e-09,True,0.000244140625,True
-Cross-model,deepseek/deepseek-chat,12,74.58333333333333,6.911948822508222e-08,True,0.000244140625,True
 Cross-model,anthropic/claude-3.7-sonnet,13,67.3076923076923,8.763677904624714e-10,True,0.0001220703125,True
+Debate against same model,deepseek/deepseek-r1-distill-qwen-14b:free,12,76.66666666666667,1.1375619733043058e-05,True,0.000244140625,True
 Debate against same model,qwen/qwq-32b:free,12,70.83333333333333,1.4912828328908932e-05,True,0.000244140625,True
+Debate against same model,deepseek/deepseek-chat,12,54.583333333333336,0.004322285289338902,True,0.015625,True
+Debate against same model,anthropic/claude-3.5-haiku,12,71.25,9.57653308888062e-08,True,0.000244140625,True
 Debate against same model,google/gemini-2.0-flash-001,12,43.25,0.7972427095498447,False,0.8173828125,False
+Debate against same model,google/gemma-3-27b-it,12,68.75,1.3809228789895951e-06,True,0.000244140625,True
+Debate against same model,openai/gpt-4o-mini,12,67.08333333333333,2.5806643593373153e-06,True,0.00048828125,True
 Debate against same model,openai/o3-mini,12,70.0,2.2161855520842926e-05,True,0.00048828125,True
 Debate against same model,qwen/qwen-max,12,62.083333333333336,0.003856980986508765,True,0.00927734375,True
-Debate against same model,deepseek/deepseek-r1-distill-qwen-14b:free,12,76.66666666666667,1.1375619733043058e-05,True,0.000244140625,True
-Debate against same model,openai/gpt-4o-mini,12,67.08333333333333,2.5806643593373153e-06,True,0.00048828125,True
-Debate against same model,google/gemma-3-27b-it,12,68.75,1.3809228789895951e-06,True,0.000244140625,True
-Debate against same model,anthropic/claude-3.5-haiku,12,71.25,9.57653308888062e-08,True,0.000244140625,True
-Debate against same model,deepseek/deepseek-chat,12,54.583333333333336,0.004322285289338902,True,0.015625,True
 Debate against same model,anthropic/claude-3.7-sonnet,12,56.25,0.01401403729341254,True,0.015869140625,True
+Debate against same model informed with 50% probability,deepseek/deepseek-r1-distill-qwen-14b:free,12,55.75,0.0007097196403253144,True,0.00390625,True
 Debate against same model informed with 50% probability,qwen/qwq-32b:free,12,50.416666666666664,0.16940034809810228,False,0.5,False
+Debate against same model informed with 50% probability,deepseek/deepseek-chat,12,49.166666666666664,0.6712208981351746,False,0.625,False
+Debate against same model informed with 50% probability,anthropic/claude-3.5-haiku,12,54.583333333333336,0.06395674122481483,False,0.08447265625,False
 Debate against same model informed with 50% probability,google/gemini-2.0-flash-001,12,36.25,0.9527314142648371,False,0.797607421875,False
+Debate against same model informed with 50% probability,google/gemma-3-27b-it,12,53.333333333333336,0.1612338338976368,False,0.08203125,False
+Debate against same model informed with 50% probability,openai/gpt-4o-mini,12,57.083333333333336,0.03970580860474392,True,0.052490234375,False
 Debate against same model informed with 50% probability,openai/o3-mini,12,50.0,,False,1.0,False
 Debate against same model informed with 50% probability,qwen/qwen-max,12,43.333333333333336,0.838766166102363,False,0.7451171875,False
-Debate against same model informed with 50% probability,deepseek/deepseek-r1-distill-qwen-14b:free,12,55.75,0.0007097196403253144,True,0.00390625,True
-Debate against same model informed with 50% probability,openai/gpt-4o-mini,12,57.083333333333336,0.03970580860474392,True,0.052490234375,False
-Debate against same model informed with 50% probability,google/gemma-3-27b-it,12,53.333333333333336,0.1612338338976368,False,0.08203125,False
-Debate against same model informed with 50% probability,anthropic/claude-3.5-haiku,12,54.583333333333336,0.06395674122481483,False,0.08447265625,False
-Debate against same model informed with 50% probability,deepseek/deepseek-chat,12,49.166666666666664,0.6712208981351746,False,0.625,False
 Debate against same model informed with 50% probability,anthropic/claude-3.7-sonnet,12,50.083333333333336,0.4478433238045339,False,0.5,False
+Public Bets,deepseek/deepseek-r1-distill-qwen-14b:free,12,69.58333333333333,0.0007924635728443532,True,0.005615234375,True
 Public Bets,qwen/qwq-32b:free,12,71.66666666666667,1.4410799750378627e-06,True,0.000244140625,True
+Public Bets,deepseek/deepseek-chat,12,56.25,0.007014263935353235,True,0.013671875,True
+Public Bets,anthropic/claude-3.5-haiku,12,73.33333333333333,1.1141455804875341e-07,True,0.000244140625,True
 Public Bets,google/gemini-2.0-flash-001,12,34.583333333333336,0.9686045015714273,False,0.970458984375,False
+Public Bets,google/gemma-3-27b-it,12,63.75,0.0002510195183089487,True,0.001708984375,True
+Public Bets,openai/gpt-4o-mini,12,72.91666666666667,3.00513919815857e-09,True,0.000244140625,True
 Public Bets,openai/o3-mini,12,72.08333333333333,2.7873592569068557e-06,True,0.000244140625,True
 Public Bets,qwen/qwen-max,12,64.58333333333333,0.00037838517113676737,True,0.001220703125,True
-Public Bets,deepseek/deepseek-r1-distill-qwen-14b:free,12,69.58333333333333,0.0007924635728443532,True,0.005615234375,True
-Public Bets,openai/gpt-4o-mini,12,72.91666666666667,3.00513919815857e-09,True,0.000244140625,True
-Public Bets,google/gemma-3-27b-it,12,63.75,0.0002510195183089487,True,0.001708984375,True
-Public Bets,anthropic/claude-3.5-haiku,12,73.33333333333333,1.1141455804875341e-07,True,0.000244140625,True
-Public Bets,deepseek/deepseek-chat,12,56.25,0.007014263935353235,True,0.013671875,True
 Public Bets,anthropic/claude-3.7-sonnet,12,56.25,0.0022261430947348795,True,0.00537109375,True
+Redteam,deepseek/deepseek-r1-distill-qwen-14b:free,12,81.25,8.158840405349902e-08,True,0.000244140625,True
+Redteam,qwen/qwq-32b:free,12,65.0,1.553054799501963e-07,True,0.000244140625,True
+Redteam,deepseek/deepseek-chat,12,62.083333333333336,7.609601794793157e-07,True,0.000244140625,True
+Redteam,anthropic/claude-3.5-haiku,12,69.58333333333333,5.20184191651164e-06,True,0.00048828125,True
+Redteam,google/gemini-2.0-flash-001,12,59.916666666666664,2.6849794364436663e-05,True,0.00048828125,True
+Redteam,google/gemma-3-27b-it,12,69.58333333333333,2.6280717423624906e-07,True,0.000244140625,True
+Redteam,openai/gpt-4o-mini,12,71.25,1.3702959430006683e-12,True,0.000244140625,True
+Redteam,openai/o3-mini,12,70.0,8.05114958408256e-06,True,0.000244140625,True
+Redteam,qwen/qwen-max,12,63.333333333333336,5.965340213747342e-06,True,0.000244140625,True
+Redteam,anthropic/claude-3.7-sonnet,12,58.333333333333336,7.372150810349752e-08,True,0.000244140625,True

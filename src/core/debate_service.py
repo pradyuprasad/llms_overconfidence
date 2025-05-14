@@ -39,7 +39,8 @@ class DebateService:
             int: The extracted bet amount (0-100)
         """
         bet_pattern = rf"<{self.bet_pattern_config.bet_amount_xml_tag}>(\d+)</{self.bet_pattern_config.bet_amount_xml_tag}>"
-        match = re.search(bet_pattern, speech_text)
+        bet_pattern_alternative = rf"<{self.bet_pattern_config.bet_amount_xml_tag.upper()}>(\d+)</{self.bet_pattern_config.bet_amount_xml_tag.upper()}>"
+        match = re.search(bet_pattern, speech_text) or re.search(bet_pattern_alternative, speech_text)
 
         if match:
             bet_amount = int(match.group(1))
@@ -76,7 +77,8 @@ class DebateService:
             str: The extracted bet logic reasoning
         """
         bet_logic_pattern = f"<{self.bet_pattern_config.bet_logic_private_xml_tag}>(.*?)</{self.bet_pattern_config.bet_logic_private_xml_tag}>"
-        match = re.search(bet_logic_pattern, speech_text, re.DOTALL)
+        alternative_bet_logic_pattern = f"<{self.bet_pattern_config.bet_logic_private_xml_tag.upper()}>(.*?)</{self.bet_pattern_config.bet_logic_private_xml_tag.upper()}>"
+        match = re.search(bet_logic_pattern, speech_text, re.DOTALL) or re.search(alternative_bet_logic_pattern, speech_text, re.DOTALL)
         if match:
             bet_logic_private = match.group(1).strip()
             return bet_logic_private

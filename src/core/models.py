@@ -20,7 +20,7 @@ class DebateType(Enum):
     SAME_DEBATOR = "same_debator"
     PUBLIC_SAME_DEBATOR = "PUBLIC_SAME_DEBATOR"
     PRIVATE_SAME_DEBATOR_INFORMED = "private_same_debator_informed"
-    REDTEAM_DEBATE = "readteam_debate"
+    SELF_REDTEAM_DEBATE = "readteam_debate"
 
 
 class Side(Enum):

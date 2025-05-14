@@ -43,6 +43,7 @@ class Config:
     debate_service: DebateService = field(init=False)
     judgement_processor: JudgementProcessor = field(init=False)
     bet_pattern_config: BetPatternConfig = field(init=False)
+    log_file_name:str = "tournament.log"
 
 
     logger = LoggerFactory()
@@ -83,7 +84,7 @@ class Config:
 
         self.debate_models_list_path = self.ai_models_dir / "debate_models.json"
         self.judge_models_list_path = self.ai_models_dir / "judge_models.json"
-        self.topic_list_path = self.topic_dir / "topics_list.json"
+        self.topic_list_path = self.topic_dir / "topic_list.json"
         self.prompts_path_yaml = self.prompts_dir / "debate_prompts.yaml"
 
         self.bet_pattern_config = BetPatternConfig(
@@ -98,14 +99,14 @@ class Config:
         self.message_formatter = MessageFormatter(
             prompts=self.prompts, bet_pattern_config=self.bet_pattern_config
         )
-        self.api_client = OpenRouterClient(api_key=self.api_key, logger=self.logger.get_logger())
+        self.api_client = OpenRouterClient(api_key=self.api_key, logger=self.logger.get_logger(self.log_file_name))
         self.debate_service = DebateService(
             api_client=self.api_client,
             message_formatter=self.message_formatter,
             bet_pattern_config=self.bet_pattern_config,
-            logger=self.logger.get_logger()
+            logger=self.logger.get_logger(self.log_file_name)
         )
         self.judgement_processor = JudgementProcessor(
             prompts=self.prompts, client=self.api_client,
-            logger=self.logger.get_logger()
+            logger=self.logger.get_logger(self.log_file_name)
         )
