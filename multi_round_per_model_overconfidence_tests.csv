@@ -1,0 +1,6 @@
+Model,N,Mean,p-value (t-test),Significant (t-test),p-value (Wilcoxon),Significant (Wilcoxon)
+anthropic/claude-3.7-sonnet,12,46.666666666666664,0.8387661661023632,False,0.79736328125,False
+openai/o3-mini,12,53.75,0.10591069064082159,False,0.1953125,False
+qwen/qwq-32b:free,8,45.0,0.8420546685225287,False,0.90625,False
+deepseek/deepseek-chat,12,55.833333333333336,0.0006163588030518406,True,0.00390625,True
+google/gemini-2.0-flash-001,12,45.833333333333336,0.7999202856070138,False,0.81396484375,False

@@ -1,0 +1,6 @@
+Model,Experiment,Mean Initial Confidence,SD Initial Confidence,Sample Size
+"('anthropic/claude-3.7-sonnet',)",multi_round,46.666666666666664,11.146408580454255,12
+"('deepseek/deepseek-chat',)",multi_round,55.833333333333336,4.687184332805461,12
+"('google/gemini-2.0-flash-001',)",multi_round,45.833333333333336,16.491503781332284,12
+"('openai/o3-mini',)",multi_round,53.75,9.799118698777317,12
+"('qwen/qwq-32b:free',)",multi_round,45.0,13.093073414159543,8

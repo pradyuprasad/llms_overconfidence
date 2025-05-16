@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "total_debates": 300,
+    "unique_models": 10,
+    "grand_totals": {
+      "prompt_tokens": 5320576,
+      "completion_tokens": 2634387,
+      "total_tokens": 7954963,
+      "total_cost_usd": 13.16,
+      "unknown_cost_models": []
+    }
+  },
+  "model_stats": {
+    "qwen/qwq-32b:free": {
+      "prompt_tokens": 641486,
+      "completion_tokens": 509093,
+      "total_tokens": 1150579,
+      "debate_count": 60,
+      "prompt_cost": 0.0,
+      "completion_cost": 0.0,
+      "total_cost": 0.0
+    },
+    "anthropic/claude-3.7-sonnet": {
+      "prompt_tokens": 666180,
+      "completion_tokens": 303662,
+      "total_tokens": 969842,
+      "debate_count": 61,
+      "prompt_cost": 2.0,
+      "completion_cost": 4.55,
+      "total_cost": 6.55
+    },
+    "google/gemma-3-27b-it": {
+      "prompt_tokens": 628341,
+      "completion_tokens": 254324,
+      "total_tokens": 882665,
+      "debate_count": 60,
+      "prompt_cost": 0.06,
+      "completion_cost": 0.05,
+      "total_cost": 0.11
+    },
+    "openai/o3-mini": {
+      "prompt_tokens": 513841,
+      "completion_tokens": 364839,
+      "total_tokens": 878680,
+      "debate_count": 60,
+      "prompt_cost": 0.57,
+      "completion_cost": 1.61,
+      "total_cost": 2.17
+    },
+    "google/gemini-2.0-flash-001": {
+      "prompt_tokens": 607920,
+      "completion_tokens": 263244,
+      "total_tokens": 871164,
+      "debate_count": 60,
+      "prompt_cost": 0.06,
+      "completion_cost": 0.11,
+      "total_cost": 0.17
+    },
+    "qwen/qwen-max": {
+      "prompt_tokens": 545857,
+      "completion_tokens": 240456,
+      "total_tokens": 786313,
+      "debate_count": 60,
+      "prompt_cost": 0.87,
+      "completion_cost": 1.54,
+      "total_cost": 2.41
+    },
+    "openai/gpt-4o-mini": {
+      "prompt_tokens": 471339,
+      "completion_tokens": 177605,
+      "total_tokens": 648944,
+      "debate_count": 60,
+      "prompt_cost": 0.07,
+      "completion_cost": 0.11,
+      "total_cost": 0.18
+    },
+    "deepseek/deepseek-r1-distill-qwen-14b:free": {
+      "prompt_tokens": 388574,
+      "completion_tokens": 227033,
+      "total_tokens": 615607,
+      "debate_count": 59,
+      "prompt_cost": 0.0,
+      "completion_cost": 0.0,
+      "total_cost": 0.0
+    },
+    "deepseek/deepseek-chat": {
+      "prompt_tokens": 443867,
+      "completion_tokens": 167810,
+      "total_tokens": 611677,
+      "debate_count": 60,
+      "prompt_cost": 0.31,
+      "completion_cost": 0.42,
+      "total_cost": 0.73
+    },
+    "anthropic/claude-3.5-haiku": {
+      "prompt_tokens": 413171,
+      "completion_tokens": 126321,
+      "total_tokens": 539492,
+      "debate_count": 60,
+      "prompt_cost": 0.33,
+      "completion_cost": 0.51,
+      "total_cost": 0.84
+    }
+  }
+}
