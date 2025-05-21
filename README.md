@@ -10,6 +10,7 @@ This repo contains all code, prompts and configs used in the NeurIPS-25 paper *T
 # Ensure you are in the llms_overconfidence directory
 # (e.g., cd <path-to-supplementary-material>/llms_overconfidence)
 
+# You can obtain an OpenRouter API key from https://openrouter.ai/
 # Provide your OpenRouter key (once per shell) **or** put it in a `.env` file here
 $Env:OPENROUTER_API_KEY = "sk-..."  # bash/zsh: export OPENROUTER_API_KEY="sk-..."
 ```
